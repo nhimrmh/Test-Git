@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\lora.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\lora.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sun Nov 17 16:48:17 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Mon Nov 18 15:09:07 2019
 <BR><P>
 <H3>Maximum Stack Usage =        236 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -439,7 +439,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_common
 </UL>
 
-<P><STRONG><a name="[109]"></a>strcspn</STRONG> (Thumb, 32 bytes, Stack size 12 bytes, strcspn.o(.text))
+<P><STRONG><a name="[108]"></a>strcspn</STRONG> (Thumb, 32 bytes, Stack size 12 bytes, strcspn.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = strcspn
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mainApp
@@ -452,7 +452,7 @@ Global Symbols
 <LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mainApp
 </UL>
 
-<P><STRONG><a name="[106]"></a>strncmp</STRONG> (Thumb, 150 bytes, Stack size 16 bytes, strncmp.o(.text))
+<P><STRONG><a name="[105]"></a>strncmp</STRONG> (Thumb, 150 bytes, Stack size 16 bytes, strncmp.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = strncmp
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mainApp
@@ -633,9 +633,9 @@ Global Symbols
 <LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
 </UL>
 
-<P><STRONG><a name="[108]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_ReadPin))
+<P><STRONG><a name="[107]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_ReadPin))
 <BR><BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaTxPacket
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
 <LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mainApp
 </UL>
 
@@ -1051,7 +1051,7 @@ Global Symbols
 <LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead8bit
 <LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPICmd8bit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
+<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
 </UL>
 
 <P><STRONG><a name="[79]"></a>SPICmd8bit</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, spi.o(i.SPICmd8bit))
@@ -1074,8 +1074,8 @@ Global Symbols
 <LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPICmd8bit
 </UL>
 <BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaTxPacket
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaEntryTx
 <LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaEntryRx
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Config
@@ -1100,9 +1100,9 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Sleep
 <LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaClearIrq
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_EntryLoRa
-<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Standby
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Standby
 <LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaTxPacket
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaEntryTx
 <LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaEntryRx
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Config
@@ -1670,26 +1670,26 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[fe]"></a>mainApp</STRONG> (Thumb, 1400 bytes, Stack size 32 bytes, mainapp.o(i.mainApp))
+<P><STRONG><a name="[fe]"></a>mainApp</STRONG> (Thumb, 1392 bytes, Stack size 32 bytes, mainapp.o(i.mainApp))
 <BR><BR>[Stack]<UL><LI>Max Depth = 192 + Unknown Stack Size
 <LI>Call Chain = mainApp &rArr; sx1276_7_8_LoRaReadRSSI &rArr; SPIRead &rArr; SPIRead8bit &rArr; HAL_SPI_Receive &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
 <LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
-<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Standby
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Standby
 <LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaTxPacket
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaEntryTx
 <LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaEntryRx
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Config
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_Transmit_FS
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncpy
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncmp
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncmp
 <LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcspn
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcspn
 <LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1704,7 +1704,7 @@ Global Symbols
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite
 <LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead
 <LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BurstWrite
-<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Standby
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Standby
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mainApp
 </UL>
@@ -1723,7 +1723,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite
 </UL>
 <BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaTxPacket
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaRxPacket
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaEntryTx
 <LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaEntryRx
 </UL>
@@ -1748,7 +1748,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mainApp
 </UL>
 
-<P><STRONG><a name="[107]"></a>sx1276_7_8_LoRaReadRSSI</STRONG> (Thumb, 128 bytes, Stack size 48 bytes, sx1276_7_8.o(i.sx1276_7_8_LoRaReadRSSI))
+<P><STRONG><a name="[106]"></a>sx1276_7_8_LoRaReadRSSI</STRONG> (Thumb, 128 bytes, Stack size 48 bytes, sx1276_7_8.o(i.sx1276_7_8_LoRaReadRSSI))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = sx1276_7_8_LoRaReadRSSI &rArr; SPIRead &rArr; SPIRead8bit &rArr; HAL_SPI_Receive &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead
@@ -1760,10 +1760,10 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mainApp
 </UL>
 
-<P><STRONG><a name="[105]"></a>sx1276_7_8_LoRaRxPacket</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, sx1276_7_8.o(i.sx1276_7_8_LoRaRxPacket))
+<P><STRONG><a name="[104]"></a>sx1276_7_8_LoRaRxPacket</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, sx1276_7_8.o(i.sx1276_7_8_LoRaRxPacket))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = sx1276_7_8_LoRaRxPacket &rArr; SPIBurstRead &rArr; SPIRead8bit &rArr; HAL_SPI_Receive &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
 <LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaClearIrq
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite
 <LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead
@@ -1775,7 +1775,7 @@ Global Symbols
 <P><STRONG><a name="[103]"></a>sx1276_7_8_LoRaTxPacket</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, sx1276_7_8.o(i.sx1276_7_8_LoRaTxPacket))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = sx1276_7_8_LoRaTxPacket &rArr; SPIRead &rArr; SPIRead8bit &rArr; HAL_SPI_Receive &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
 <LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaClearIrq
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite
 <LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead
@@ -1793,7 +1793,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_Config
 </UL>
 
-<P><STRONG><a name="[104]"></a>sx1276_7_8_Standby</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, sx1276_7_8.o(i.sx1276_7_8_Standby))
+<P><STRONG><a name="[109]"></a>sx1276_7_8_Standby</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, sx1276_7_8.o(i.sx1276_7_8_Standby))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = sx1276_7_8_Standby &rArr; SPIWrite &rArr; SPICmd8bit &rArr; HAL_SPI_Transmit &rArr; SPI_WaitOnFlagUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite
@@ -1805,7 +1805,7 @@ Global Symbols
 <P><STRONG><a name="[10f]"></a>__aeabi_dadd</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, daddsub_clz.o(x$fpl$dadd))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_dadd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
 </UL>
 
 <P><STRONG><a name="[111]"></a>_dadd</STRONG> (Thumb, 332 bytes, Stack size 16 bytes, daddsub_clz.o(x$fpl$dadd), UNUSED)
@@ -1817,7 +1817,7 @@ Global Symbols
 <P><STRONG><a name="[110]"></a>__aeabi_d2iz</STRONG> (Thumb, 0 bytes, Stack size 32 bytes, dfix.o(x$fpl$dfix))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = __aeabi_d2iz
 </UL>
-<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
 </UL>
 
 <P><STRONG><a name="[115]"></a>_dfix</STRONG> (Thumb, 94 bytes, Stack size 32 bytes, dfix.o(x$fpl$dfix), UNUSED)
@@ -1825,7 +1825,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[10d]"></a>__aeabi_i2d</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, dflt_clz.o(x$fpl$dflt))
-<BR><BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
+<BR><BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
 </UL>
 
 <P><STRONG><a name="[14e]"></a>_dflt</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, dflt_clz.o(x$fpl$dflt), UNUSED)
@@ -1833,7 +1833,7 @@ Global Symbols
 <P><STRONG><a name="[10e]"></a>__aeabi_dmul</STRONG> (Thumb, 0 bytes, Stack size 32 bytes, dmul.o(x$fpl$dmul))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = __aeabi_dmul
 </UL>
-<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sx1276_7_8_LoRaReadRSSI
 </UL>
 
 <P><STRONG><a name="[116]"></a>_dmul</STRONG> (Thumb, 332 bytes, Stack size 32 bytes, dmul.o(x$fpl$dmul), UNUSED)
